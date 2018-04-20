@@ -35,7 +35,11 @@
 
 	<a href="#">Vinculo</a>
 
-	<img src="img/imagen.jpg">
+	<figure>
+		<img src="img/imagen.jpg">
+	</figure>
+	<figcaption>Caption de la imagen</figcaption>
+
 
 	<ol>
 		<li>Carro</li>
@@ -50,18 +54,22 @@
 	</ul>
 
 	<table border="1">
-		<tr>
-			<th>Mes</th>
-			<th>Ahorro</th>
-		</tr>
-		<tr>
-			<th>Enero</th>
-			<th>$100</th>
-		</tr>
-		<tr>
-			<th>Febrero</th>
-			<th>$200</th>
-		</tr>
+		<thead>
+			<tr>
+				<th>Mes</th>
+				<th>Ahorro</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Enero</td>
+				<td>$100</td>
+			</tr>
+			<tr>
+				<td>Febrero</td>
+				<td>$200</td>
+			</tr>
+		</tbody>
 	</table>
 	
 	<h1>Resultados del Examen</h1>
@@ -69,6 +77,14 @@
 	<p>Andres: <meter value="80" min="0" max="100" high="90"></meter></p>
 	<p>Ana: <meter value="60" min="0" max="100" high="90"></meter></p>
 	<p>Pedro: <meter value="45" min="0" max="100" high="90"></meter></p>
+
+	<h2>Resultado de Ventas</h2>
+	<p> Enero: <progress value="94" min="0" max="100"></progress></p>
+	<p> Febrero <progress value="80" min="0" max="100"></progress></p>
+	<p> Marzo: <progress value="60" min="0" max="100"></progress></p>
+	<p> Abril: <progress value="45" min="0" max="100"></progress></p>
+
+
 
 	<footer>Este es el pie de página</footer>
 
